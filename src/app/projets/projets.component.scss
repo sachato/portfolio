@@ -1,0 +1,22 @@
+/* Styles de la galerie de projets */
+.project-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .project-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .project-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .project-item img {
+    width: 100%;
+    height: auto;
+  }
+  
